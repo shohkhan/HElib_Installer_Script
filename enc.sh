@@ -20,8 +20,8 @@ sudo make install
 
 cd ..
 cd ..
-wget https://github.com/jlaneve/HElib/archive/v1.0.tar.gz -O HElib
-tar -xvf HElib
-cd HElib-1.0/src/
+wget https://github.com/shaih/HElib/archive/master.zip -O HElib.zip
+unzip HElib.zip
+cd HElib-master/src/
 make
 
