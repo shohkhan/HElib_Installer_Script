@@ -11,9 +11,11 @@ make
 sudo make install
 
 cd ..
-wget http://www.shoup.net/ntl/ntl-10.3.0.tar.gz -O ntl
+# wget http://www.shoup.net/ntl/ntl-10.3.0.tar.gz -O ntl
+wget http://www.shoup.net/ntl/ntl-10.5.0.tar.gz -O ntl
 tar -xvf ntl
-cd ntl-10.3.0/src/
+#cd ntl-10.3.0/src/
+cd ntl-10.5.0/src/
 ./configure NTL_GMP_LIP=on
 make
 sudo make install
